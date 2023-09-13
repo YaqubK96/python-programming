@@ -1,0 +1,3 @@
+mark=input("Enter your mark out of 60.")
+percentage=(mark/60)*100
+print("your percentage is ", percentage)
