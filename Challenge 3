@@ -1,0 +1,9 @@
+answer="USA"
+print("what country has the capital of washington DC?")
+country=input()
+if country==answer :
+  print("Correct!")
+elif country==answer.lower():
+  print("Correct, but you should have used capital letters.")
+else:
+  print("Incorrect:(")
