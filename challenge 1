@@ -1,0 +1,6 @@
+print("What is 45 + 50?")
+answer=input()
+if answer=="90":
+  print("Correct")
+else:
+  print("Incorrect")
