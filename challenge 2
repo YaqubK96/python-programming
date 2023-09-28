@@ -1,0 +1,12 @@
+print("What mark did you achieve in the test?")
+mark=int(input())
+if mark>=90:
+  print("You got an A*")
+elif mark>=80:
+  print("You got an A")
+elif mark>=70:
+  print("You got a B")
+elif mark>=60:
+  print("You got a C")
+else:
+  print("You failed the test.")
