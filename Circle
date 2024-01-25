@@ -1,0 +1,7 @@
+diametre=float(input("Enter the diametre of the circle"))
+radius=diametre / 2
+area= 3.14 * (radius * radius)
+circumference= 3.14 * diametre
+
+print("Area:", area)
+print("Circumference:", circumference)
