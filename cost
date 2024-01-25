@@ -1,0 +1,8 @@
+
+prev=float(input("Enter the previous meter reading:"))
+curr=float(input("Enter the current meter reading:"))
+cal=39.3
+used=curr - prev
+kilo= used * 1.022 * (cal/3.6)
+cost= 0.0284 * kilo
+print("the cost is", cost)
